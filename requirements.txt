@@ -8,3 +8,4 @@ wordcloud
 scikit-learn
 Sastrawi
 mysql-connector-python
+openpyxl

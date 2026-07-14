@@ -129,11 +129,11 @@ load_css()
 @st.cache_resource
 def load_model():
 
-    model_bow = joblib.load("/svm_bow.pkl")
-    bow_vectorizer = joblib.load("/bow_vectorizer.pkl")
+    model_bow = joblib.load("svm_bow.pkl")
+    bow_vectorizer = joblib.load("bow_vectorizer.pkl")
 
-    model_tfidf = joblib.load("/svm_tfidf.pkl")
-    tfidf_vectorizer = joblib.load("/tfidf_vectorizer.pkl")
+    model_tfidf = joblib.load("svm_tfidf.pkl")
+    tfidf_vectorizer = joblib.load("tfidf_vectorizer.pkl")
 
     return (
         model_bow,
